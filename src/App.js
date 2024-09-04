@@ -11,15 +11,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<AboutUs />} />
       </Routes>
     </Router>
-    <>
-    <div className="App">
-    <Navigation />
-    <AboutUs/>
-    </div>
-    </>
+    
     
   );
 }
