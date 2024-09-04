@@ -1,18 +1,11 @@
 import React from "react";
 import blackFamily from "./img/gallery/blackfamily.png";
 import heroBg from "./img/gallery/hero-bg.png";
+import "./Background.css";
 
 function Home() {
   return (
     <section className="py-xxl-10 pb-0" id="home">
-      <div
-        className="bg-holder bg-size"
-        style={{
-          backgroundImage: `url(${heroBg})`,
-          backgroundPosition: "top center",
-          backgroundSize: "cover",
-        }}
-      ></div>
       {/*/.bg-holder*/}
 
       <div className="container">
