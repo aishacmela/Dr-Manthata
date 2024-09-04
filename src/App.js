@@ -1,11 +1,11 @@
 import "./App.css";
-import Login from "./Login";
+import Navigation from "./Navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Navigation />
     </div>
   );
 }
