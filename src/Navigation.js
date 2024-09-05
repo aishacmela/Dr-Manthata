@@ -42,7 +42,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item px-2">
-              <a className="nav-link" href="#findUs">
+              <a className="nav-link" href="/Contacts">
                 Contact
               </a>
             </li>
