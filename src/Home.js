@@ -1,4 +1,5 @@
 import React from "react";
+
 import blackFamily from "./img/gallery/blackfamily.png";
 import "./App.css"
 import "./Home.css"; // Import the new CSS file
