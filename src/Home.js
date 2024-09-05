@@ -6,8 +6,6 @@ import "./Background.css";
 function Home() {
   return (
     <section className="py-xxl-10 pb-0" id="home">
-      {/*/.bg-holder*/}
-
       <div className="container">
         <div className="row min-vh-xl-100 min-vh-xxl-25">
           <div className="col-md-5 col-xl-6 col-xxl-7 order-0 order-md-1 text-end">
