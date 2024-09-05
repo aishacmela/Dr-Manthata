@@ -1,6 +1,8 @@
 import React from "react";
-import family from "./img/gallery/blackfamily.png";
-import "./Home.css";
+
+import blackFamily from "./img/gallery/blackfamily.png";
+import "./App.css"
+import "./Home.css"; // Import the new CSS file
 
 const Home = () => {
   return (

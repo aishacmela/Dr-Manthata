@@ -1,12 +1,15 @@
 import React from 'react';
 import "./AboutUs.css";
-import HealthCare from "./img/gallery/health-care.png"
+import HealthCare from "./img/gallery/health-care.png";
+
 function AboutUs() {
   return (
     <main className="about-us-page">
       <section className="pb-0" id="about">
-        <div className="container">
+        <div className="header-background">
           <h1 className="text-center">ABOUT US</h1>
+        </div>
+        <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
               <img src={HealthCare} alt="About Us" className="img-fluid" />
